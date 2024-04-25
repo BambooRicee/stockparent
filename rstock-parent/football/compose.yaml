@@ -1,0 +1,9 @@
+version: "3"
+services:
+  postgres:
+    image: bambooricee/football
+    ports:
+      - "8080:8080"
+    environment:
+      - "SPRING_PROFILES_ACTIVE=DEV"
+
